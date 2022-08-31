@@ -32,10 +32,71 @@
         margin-left: 20px;
         margin-top: 30px;
         color: #ffffff;
-     }
+        padding-bottom: 5px;
+        position: relative;
+        cursor: pointer;
+        }
+    header li::before{
+        content: "";
+        width: 0;
+        height: 1px;
+        background-color: #ffffff;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        transition: 1s;
+        
+
+    }
+    header li:hover:before{
+        width: 100%;
+        
+    }
+         .social{
+            width: 50px;
+            height: 50px;
+            position: absolute;
+            top: 120px;
+            right: 0;
+         }
+         .fb a{
+            background-image: url(../suratebi/fb1.png);
+            background-repeat: no-repeat;
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+            position: fixed;
+}
+         
+   .fb a:hover{
+    background-image: url(../suratebi/\ fblurji.png);
+   }
+   .social2{
+    width: 50px;
+            height: 50px;
+            position: absolute;
+            top: 170px;
+            right: 0;
+
+   }
+   .insta a{
+    background-image: url(../suratebi/ig1.png);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: fixed;
+   }
+   .insta a:hover{
+    background-image: url(../suratebi/in2.png);
+   }
+
+     
+     
      main{
         padding-top: 80px;
         padding-left: 110px;
+        position: relative;
     }
      .today1{
        padding-bottom: 50px;
@@ -62,6 +123,9 @@
         top: 0;
         right: 0;
      }
+     .heart:hover{
+        background-image: url(../suratebi/like\ 2.png);
+     }
 section h3{
      margin-top: 144px ;
      margin-left: 12px;
@@ -84,22 +148,8 @@ article p a{
 .bolo1{
     margin-bottom: 100px;
      }
-.social{
-    width: 30px;
-    height: 30px;
-    position: fixed;
-    right: 0;
-    top: 220px;
-     }
-.social .facebook .instagram{
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
-    }
-.social .facebook img,
-.social .instagram img{
-    width: 100%;
-    }
+
+
 .meoresatauri{
     padding-bottom: 22px;
     }
@@ -169,7 +219,15 @@ footer p{
       .meoregv{
         text-align: center;
         margin-bottom: 142px;
-        }  
+        } 
+        .seqcia:hover{
+            width: 300px;
+            height: 360px;
+            background-color: #ffffff;
+            border: 1px solid #ffffff;
+            box-shadow: 0 0 10px ;
+            cursor: pointer;
+        } 
 
 
 
